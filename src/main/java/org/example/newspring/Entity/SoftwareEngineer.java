@@ -1,6 +1,11 @@
 package org.example.newspring.Entity;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class SoftwareEngineer {
+    @Id
     public int id;
     public String name;
     public int age;
